@@ -16,20 +16,20 @@ function Header() {
             <li className="nav-item"><a className="nav-link px-3" href="#hero">Home</a></li>
             <li className="nav-item"><a className="nav-link px-3" href="#about">About</a></li>
             <li className="nav-item"><a className="nav-link px-3" href="#services">Services</a></li>
-            <li className="nav-item"><a className="nav-link px-3" href="#portfolio">Portfolio</a></li>
+            <li className="nav-item"><a className="nav-link px-3" href="#events">Events</a></li>
             <li className="nav-item"><a className="nav-link px-3" href="#team">Team</a></li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Drop Down
+                Downloads
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Drop Down 1</a></li>
+                <li><a className="dropdown-item" href="#">General terms and Conditions</a></li>
                 <li className="dropdown">
                   <a className="dropdown-item dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Deep Drop Down
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
-                    <li><a className="dropdown-item" href="#">Deep Drop Down 1</a></li>
+                    <li><a className="dropdown-item" href="#">General Terms and Conditions for Purchasing</a></li>
                     <li><a className="dropdown-item" href="#">Deep Drop Down 2</a></li>
                     <li><a className="dropdown-item" href="#">Deep Drop Down 3</a></li>
                     <li><a className="dropdown-item" href="#">Deep Drop Down 4</a></li>
