@@ -38,12 +38,28 @@
 }
 
 /* Text Styles */
-.hero h2,
+.hero h2 {
+    color: #020202;
+    font-size: 40px;
+    font-weight: bold; /* Set font weight to bold */
+}
+
 .hero p {
     color: #020202;
-    font-size: 30px;
-    font-weight: 400
+    font-size: 20px;
+    font-weight: bold; /* Set font weight to bold */
 }
+
+
+
+.line {
+    width: 30%;
+    height: 3px;
+    background-color: rgb(245, 197, 3);
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
 
 /* Button Styles */
 .hero .btn-get-started,
