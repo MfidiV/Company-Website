@@ -11,7 +11,7 @@ const TopBar = () => {
         <div className="row justify-content-between align-items-center">
           <div className="col-md-6 col-lg-8 contact-info">
             <FontAwesomeIcon icon={faEnvelope} className="me-2" />
-            <a href="mailto:contact@example.com" className="text-decoration-none text-light">contact@example.com</a>
+            <a href="mailto:contact@example.com" className="text-decoration-none text-light">reception@example.com</a>
             <span className="ms-2 me-2">|</span>
             <FontAwesomeIcon icon={faPhone} className="me-2" />
             <span>043 234 5678</span>

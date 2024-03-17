@@ -3,16 +3,16 @@
 /* Hero Section Styles */
 .hero {
     position: relative;
-    padding: 100px 0;
+    padding: 100px 0; /* Add 0 padding to the top */
     background-color: #f8f9fa;
     background-image: url('../../assets/Landing/IsringBuilding.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;
-  }
-  
-  /* Overlay Styles */
-  .hero::before {
+}
+
+/* Overlay Styles */
+.hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -21,23 +21,33 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-  }
-  
-  /* Container Styles */
-  .hero .container {
-    position: relative;
+}
+
+/* Container Styles */
+.hero .container {
+    position:relative;
     z-index: 2;
-  }
-  
-  /* Text Styles */
-  .hero h2,
-  .hero p {
-    color: #fff;
-  }
-  
-  /* Button Styles */
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+}
+
+/* Hero Text Styles */
+.HeroText {
+    display: inline-block;
+    background-color: rgba(248, 249, 250, 0.7); /* Set background color with opacity */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+/* Text Styles */
+.hero h2,
+.hero p {
+    color: #020202;
+    font-size: 30px;
+    font-weight: 400
+}
+
+/* Button Styles */
+.hero .btn-get-started,
+.hero .btn-watch-video {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -46,15 +56,15 @@
     font-size: 16px;
     text-decoration: none;
     margin-right: 10px;
-  }
-  
-  .hero .btn-get-started:hover,
-  .hero .btn-watch-video:hover {
+}
+
+.hero .btn-get-started:hover,
+.hero .btn-watch-video:hover {
     background-color: #0056b3;
-  }
-  
-  /* Icon Box Styles */
-  .icon-box {
+}
+
+/* Icon Box Styles */
+.icon-box {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -66,36 +76,35 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .icon-box:hover {
+}
+
+.icon-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-  }
-  
-  .icon-box .icon {
+}
+
+.icon-box .icon {
     font-size: 40px;
     margin-bottom: 15px;
     color: #007bff;
-  }
-  
-  .icon-box .title {
+}
+
+.icon-box .title {
     font-size: 20px;
     margin-bottom: 10px;
     color: #343a40;
-  }
-  
-  .icon-box .title a {
+}
+
+.icon-box .title a {
     color: #343a40;
     text-decoration: none;
-  }
-  
-  .icon-box .title a:hover {
+}
+
+.icon-box .title a:hover {
     color: #007bff;
-  }
-  
-  .icon-box .description {
+}
+
+.icon-box .description {
     font-size: 16px;
     color: #6c757d;
-  }
-  
+}
