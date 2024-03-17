@@ -3,7 +3,7 @@ import Logo from '../../assets/Logo/isri.gif'
 
 function Header() {
   return (
-    <header id="header" className="header d-flex align-items-center bg-light">
+    <header id="header" className="header d-flex align-items-center bg-light sticky-top">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between flex-row">
         <a href="index.html" className="logo d-flex align-items-center text-decoration-none">
           {/* Uncomment the line below if you also wish to use an image logo */}

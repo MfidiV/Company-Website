@@ -1,0 +1,101 @@
+/* Home.css */
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    padding: 100px 0;
+    background-color: #f8f9fa;
+    background-image: url('../../assets/Landing/IsringBuilding.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  /* Overlay Styles */
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  /* Container Styles */
+  .hero .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Text Styles */
+  .hero h2,
+  .hero p {
+    color: #fff;
+  }
+  
+  /* Button Styles */
+  .hero .btn-get-started,
+  .hero .btn-watch-video {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .hero .btn-get-started:hover,
+  .hero .btn-watch-video:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Icon Box Styles */
+  .icon-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    height: 100%; /* Set fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .icon-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-box .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .icon-box .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #343a40;
+  }
+  
+  .icon-box .title a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  
+  .icon-box .title a:hover {
+    color: #007bff;
+  }
+  
+  .icon-box .description {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
