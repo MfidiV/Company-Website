@@ -3,6 +3,7 @@ import './App.css'
 import TopBar from './Components/Top_Bar/TopBar.jsx'
 import Header from './Components/Header/Header.jsx'
 import Home from './Sections/Home/Home.jsx';
+import Profile from './Sections/Profile.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TopBar />
       <Header />
       <Home/>
+      <Profile/>
     </div>
   );
 }

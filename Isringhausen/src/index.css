@@ -1,0 +1,35 @@
+.Heading {
+    text-align: center;
+  }
+  
+  .Heading h1 {
+    font-size: 3rem;
+    margin: 50px auto; /* Adds margin-top and centers the heading horizontally */
+    text-align: center; /* Centers the text */
+    border-bottom: 3px solid #ff8c00; /* Add border bottom */
+    width: 30%; /* Set the width of the border bottom */
+    line-height: 1.5; /* Set line height */
+  }
+  
+  .SpanText {
+    color: #ff8c00; /* Change to whatever color you prefer */
+  }
+  
+  .line {
+    width: 50%; /* Width of the line */
+    height: 3px;
+    background-color: #ff8c00;
+    margin: 0 auto; /* Centers the line horizontally */
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Custom styles for the carousel arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-weight: bold; /* Make the arrows bold */
+  color: #ff8c00 !important; /* Set the color to the specified color */
+}
+
+/* Custom background color for the carousel arrows */
+

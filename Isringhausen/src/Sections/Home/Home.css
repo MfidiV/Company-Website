@@ -50,12 +50,10 @@
     font-weight: bold; /* Set font weight to bold */
 }
 
-
-
 .line {
     width: 30%;
     height: 3px;
-    background-color: rgb(245, 197, 3);
+    background-color:#ff8c00;
     margin-top: 5px;
     margin-bottom: 10px;
   }
@@ -64,7 +62,7 @@
 /* Button Styles */
 .hero .btn-get-started,
 .hero .btn-watch-video {
-    background-color: #007bff;
+    background-color: #ff8c00;
     color: #fff;
     border: none;
     padding: 10px 20px;
