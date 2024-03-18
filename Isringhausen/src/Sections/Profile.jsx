@@ -91,7 +91,9 @@ ISRINGHAUSEN's tight network of strategically placed domestic and foreign dealer
           </div>
         </div>
       </div>
+      <div className="line"></div>
     </div>
+    
   );
 };
 

@@ -19,8 +19,7 @@
     width: 50%; /* Width of the line */
     height: 3px;
     background-color: #ff8c00;
-    margin: 0 auto; /* Centers the line horizontally */
-    margin-top: 5px;
+    margin: 70px auto; /* Centers the line horizontally */
     margin-bottom: 10px;
   }
   
