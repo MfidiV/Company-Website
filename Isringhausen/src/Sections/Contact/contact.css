@@ -79,7 +79,7 @@
   @media screen and (max-width: 720px) {
     .contact-container {
       display: flex;
-      flex-direction: column;
+      flex-direction:column-reverse;
       margin: 0 50px;
     }
   }
