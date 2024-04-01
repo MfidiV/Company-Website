@@ -79,7 +79,7 @@ ISRINGHAUSEN offers its customers comprehensive service, from the product idea, 
 
 CATERPILLAR, DAF, DAIMLER AG, FAW, FIAT, HINO, ISUZU, IVECO, JCB, KOMATSU, LIEBHERR, MAN, MITSUBISHI, NAVISTAR, PACCAR, RENAULT, SCANIA, TATA, VOLKSWAGEN, VOLVO
 
-ISRINGHAUSEN's tight network of strategically placed domestic and foreign dealers guarantees professional and local retrofitting.
+        ISRINGHAUSEN's tight network of strategically placed domestic and foreign dealers guarantees professional and local retrofitting.
               </p>
 
               <p>

@@ -1,0 +1,74 @@
+/* footer.css */
+
+footer {
+    padding: 30px 0; /* Padding around the content */
+    align-items: left;
+  }
+  
+  .Footer-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+  }
+  
+  .Product-container,
+  .Links-container,
+  .ContactUs-container {
+    flex: 0 0 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    text-align: left; /* Align links to the left */
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+  .fw-bold {
+    font-weight: bold; /* Set font weight to bold */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem; /* Margin at the bottom */
+  }
+  
+  .mb-md-0 {
+    margin-bottom: 0; /* No margin at the bottom for medium screens and above */
+  }
+  
+  .text-reset {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .text-reset:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .me-3 {
+    margin-right: 1rem; /* Spacing on the right */
+  }
+  
+  .p-4 {
+    padding: 1.5rem !important; /* Padding on all sides */
+  }
+  
+  .text-center {
+    text-align: center; /* Center-align the text */
+  }
+  
+  .bg-body-tertiary {
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .text-muted {
+    color: #6c757d; /* Text color */
+  }
+  
+  .text-reset.fw-bold:hover {
+    font-weight: bold; /* Hover font weight */
+  }
+  
+  .text-reset.fw-bold:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
