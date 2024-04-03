@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
 import "./profile.css"; // Import custom CSS file for styling
 import image01 from '../assets/Photos/NTS 2 ISRI-Seat.jpg';
-import image02 from "../assets/Photos/ISRI AIR SEAT.jpg";
 import image03 from "../assets/Photos/ISRI bUS.jpg";
+import image04 from "../assets/Photos/1675414528902.jpg"
 
 const Profile = () => {
   return (
@@ -16,26 +16,27 @@ const Profile = () => {
       <div className="profile-container container">
         <div className="row">
           <div className="Image-Carousel col-md-6">
-            <Carousel interval={4000} pause={false} indicators={true} fade={true} slide={false}>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image01} alt="First slide" style={{ height: "500px", objectFit: "cover" }} />
-                <Carousel.Caption>
-                  <h3>NTS 6860/870 RH</h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image02} alt="Second slide" style={{ height: "500px", objectFit: "cover" }} />
-                <Carousel.Caption>
-                  <h3>ISRI 6000/870 LH</h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image03} alt="Third slide" style={{ height: "500px", objectFit: "cover" }} />
-                <Carousel.Caption>
-                  <h3>BUS SEATS</h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
+          <Carousel interval={5000} pause={false} indicators={true} fade={true} slide={false}>
+                  <Carousel.Item>
+                    <img className="d-block w-100" src={image04} alt="First slide" style={{ height: "500px", objectFit: "cover" }} />
+                    <Carousel.Caption>
+                      <h3>Mfidi</h3>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  
+                  <Carousel.Item>
+                    <img className="d-block w-100" src={image03} alt="Third slide" style={{ height: "500px", objectFit: "cover" }} />
+                    <Carousel.Caption>
+                      <h3>BUS SEATS</h3>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img className="d-block w-100" src={image01} alt="Fourth slide" style={{ height: "500px", objectFit: "cover" }} />
+                    <Carousel.Caption>
+                      <h3>Driver Seats</h3>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
           </div>
           <div className="col-md-6 information">
             <div className="d-flex align-items-center justify-content-center">

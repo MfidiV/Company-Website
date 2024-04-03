@@ -4,11 +4,16 @@
   
   .heading {
     text-align: center;
-    margin-bottom: 30px;
+ 
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+ 
+
   }
   
   .span-text {
-    color: #007bff;
+    color: #ff8c00;
   }
   
   .profile-container {
@@ -37,7 +42,7 @@
   }
   
   .line {
-    border-top: 2px solid #007bff;
+    border-top: 2px solid #ff8c00 ;
     margin-top: 50px;
   }
   
