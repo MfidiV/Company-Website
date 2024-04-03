@@ -21,6 +21,7 @@ export default function App() {
       <Profile/>
       <Products/>
       <Contact/>
+ 
       <Footer/>
     </div>
   );

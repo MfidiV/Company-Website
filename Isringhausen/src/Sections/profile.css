@@ -1,0 +1,52 @@
+.profile {
+    padding: 50px 0;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .span-text {
+    color: #007bff;
+  }
+  
+  .profile-container {
+    margin-top: 30px;
+  }
+  
+  
+  .carousel {
+    height: 500px;
+    border-radius: 20px; /* Rounded corners for the carousel */
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+    border-radius: 10px; /* Rounded corners for captions */
+  }
+  
+  .carousel-caption h3 {
+    color: #fff; /* Caption text color */
+  }
+  
+  .information {
+    padding: 20px;
+  }
+  
+  .line {
+    border-top: 2px solid #007bff;
+    margin-top: 50px;
+  }
+  
+  .information ul {
+    margin-top: 20px; /* Add space between list items */
+  }
+  
+  .information ul li {
+    margin-bottom: 10px; /* Adjust as needed */
+    font-size: 18px; /* Increase font size for list items */
+  }
+  

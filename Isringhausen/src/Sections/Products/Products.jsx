@@ -1,6 +1,5 @@
 import React from "react";
 import "./products.css"; // Import CSS file for styling
-import DistributorDetails from "../../Components/Distributors/DistributorsDetails"
 
 // Images imports
 import image01 from "../../assets/Seat_Products/2021-mine-3000.png";
@@ -91,7 +90,7 @@ const Products = () => {
           </div>
         ))}
       </div>
-      <DistributorDetails/>
+    
     </div>
   );
 };
