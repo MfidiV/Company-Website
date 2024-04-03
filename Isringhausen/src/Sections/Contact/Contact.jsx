@@ -50,7 +50,7 @@ const Contact = () => {
           </label>
           <textarea id="msg" name="msg" rows="5" required></textarea>
 
-          <button type="submit">Submit</button>
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>

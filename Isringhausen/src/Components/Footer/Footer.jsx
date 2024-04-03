@@ -5,11 +5,11 @@ function Footer() {
   return (
     <footer>
       <section className="Footer-container">
-        <div>
-          <h2 className="text-uppercase fw-bold mb-4">Company name</h2>
+        <div className="CompanyDetails">
+          <h2 className="text-uppercase fw-bold mb-4">ISRING<span>HAUSEN</span></h2>
           <p>
-            Here you can use rows and columns to organize your footer content.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          A global market leader in the development and manufacture of 
+          innovative seating systems for commercial vehicles as well as technical springs.
           </p>
           {/* Grid column */}
           <div class="col-auto">
@@ -22,7 +22,7 @@ function Footer() {
           {/* Grid column */}
           <div class="col-md-5 col-12">
             {/* Email input */}
-            <div data-mdb-input-init class="form-outline mb-4">
+            <div data-mdb-input-init class="form-outline mb-2">
               <input type="email" placeholder="Email" id="form5Example24" class="form-control" />
              
             </div>
@@ -33,22 +33,22 @@ function Footer() {
           <h6 className="text-uppercase fw-bold mb-4">Products</h6>
           <p>
             <a href="#!" className="text-reset">
-              Angular
+              Truck Seats
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              React
+              Bus Seats
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Vue
+              Commercial
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Laravel
+              Heavy Construction
             </a>
           </p>
         </div>
@@ -56,12 +56,12 @@ function Footer() {
           <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
           <p>
             <a href="#!" className="text-reset">
-              Pricing
+              Home
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Settings
+              About Company
             </a>
           </p>
           <p>
@@ -78,16 +78,16 @@ function Footer() {
         <div className="ContactUs-container">
           <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
           <p>
-            <i className="fas fa-home me-3"></i> New York, NY 10012, US
+            <i className="fas fa-home me-3"></i> 14 Napier Rd, Woodbrook ,E.L
           </p>
           <p>
-            <i className="fas fa-envelope me-3"></i> info@example.com
+            <i className="fas fa-envelope me-3"></i> reception@isri.co.za
           </p>
           <p>
-            <i className="fas fa-phone me-3"></i> + 01 234 567 88
+            <i className="fas fa-phone me-3"></i> (043)-290 9922
           </p>
           <p>
-            <i className="fas fa-print me-3"></i> + 01 234 567 89
+            <i className="fas fa-print me-3"></i> (043)-290 9922
           </p>
         </div>
       </section>
