@@ -2,14 +2,17 @@
 
 footer {
     /* margin-top: 50%; */
-    margin:70px;
+    margin:20px;
     padding: 10px 0; /* Padding around the content */
     align-items: left;
+    background-color: rgba(0, 0, 0, 0.05);
   }
   
   .Footer-container {
     display: flex;
-    justify-content: flex-start; /* Align content to the left */
+    justify-content:space-around; /* Align content to the left */
+    margin: 30px 50px;
+  
   }
   
   .CompanyDetails span {
