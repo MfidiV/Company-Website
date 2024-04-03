@@ -13,7 +13,7 @@ import image08 from "../../assets/Seat_Products/Bus.jpg";
 import image09 from "../../assets/Seat_Products/img11.jpg";
 import image10 from "../../assets/Seat_Products/Bus06.jpg";
 import image11 from "../../assets/Seat_Products/VOLVO-air-seat-shovel-ISRI-air-6500-500x678.jpg";
-
+import image12 from "../../assets/Seat_Products/csm_tabbar_lkw_418d154521.jpg";
 
 const images = [
   {
@@ -50,6 +50,11 @@ const images = [
     src: image07, // Reusing the same image
     alt: "6030_880_Large.png",
     desc: "ISRI 6030/880 Large",
+  },
+  {
+    src: image12, // Reusing the same image
+    alt: "Isri_NTS2.jpg",
+    desc: "NTS-2 6860kM/870",
   },
   {
     src: image11, // Reusing the same image
