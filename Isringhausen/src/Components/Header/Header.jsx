@@ -1,15 +1,12 @@
 import React from 'react';
 import Logo from '../../assets/Logo/isri.gif'
-
+import './Header.css'
 function Header() {
   return (
     <header id="header" className="header d-flex align-items-center bg-light sticky-top">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between flex-row">
         <a href="index.html" className="logo d-flex align-items-center text-decoration-none">
-          {/* Uncomment the line below if you also wish to use an image logo */}
-          {/* <img src="/Isringhausen/public/Logo.svg" alt="Logo" /> */}
           <img src={Logo}alt="Logo" />
-          {/* <h1 className="text-dark">ISRi<span className="text-primary">.</span></h1> */}
         </a>
         <nav id="navbar" className="navbar">
           <ul className="navbar-nav d-flex flex-row">
@@ -45,8 +42,11 @@ function Header() {
           </ul>
         </nav>
         {/* .navbar */}
-        <button className="mobile-nav-toggle bi bi-list btn btn-outline-dark d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <button className="mobile-nav-toggle bi bi-x btn btn-outline-dark d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+       {/* Toggle button for mobile navigation */}
+       <button className="mobile-nav-toggle btn btn-outline-dark d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          &#9776; {/* Hamburger icon */}
+          &#10006; {/* Close icon */}
+        </button>
       </div>
     </header>
     

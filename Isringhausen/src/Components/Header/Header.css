@@ -1,0 +1,31 @@
+/* Add this CSS in your stylesheet */
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 780px) {
+    .navbar {
+      display: none; /* Hide the navbar by default on small screens */
+      position: fixed;
+      top: 70px; /* Adjust the top position as needed */
+      left: 0;
+      width: 100%;
+      background-color: #fff; /* Background color for the mobile navbar */
+      z-index: 1000; /* Ensure the navbar is above other content */
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+    }
+  
+    .navbar-nav {
+      flex-direction: column; /* Stack the nav links vertically */
+    }
+  
+    .navbar-nav li {
+      margin-bottom: 10px; /* Add space between nav items */
+    }
+  
+    .mobile-nav-toggle {
+      display: block; /* Show the toggle button */
+    }
+  }
+  
+  /* Additional media queries for larger screens if necessary */
+  
