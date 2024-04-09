@@ -8,7 +8,7 @@ import image04 from "../assets/Photos/1675414528902.jpg"
 
 const Profile = () => {
   return (
-    <div className="profile">
+    <div className="profile" id="profile">
       <div className="heading">
         <h1>Company <span className="span-text">Profile</span></h1>
       </div>

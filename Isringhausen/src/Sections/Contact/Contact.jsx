@@ -4,7 +4,7 @@ import DistributorDetails from '../../Components/Distributors/DistributorsDetail
 
 const Contact = () => {
   return (
-    <>
+    <div className="contact" id="contact">
     <div className ="heading">
        <h2>Contact Us</h2>
     </div>
@@ -56,7 +56,7 @@ const Contact = () => {
       </div>
     </div>
     <DistributorDetails/>
-    </>
+    </div>
   );
 };
 

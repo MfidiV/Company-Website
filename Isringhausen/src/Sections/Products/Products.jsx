@@ -79,7 +79,7 @@ const images = [
 
 const Products = () => {
   return (
-    <div>
+    <div className="products" id="products">
      <div className ="heading">
        <h2>Products</h2>
     </div>

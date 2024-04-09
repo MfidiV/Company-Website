@@ -1,8 +1,32 @@
 .navbar-nav {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
+.navbar-nav li {
+  margin-right: 20px; /* Adjust margin between nav items */
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0; /* Remove margin from last nav item */
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  color: #333; /* Adjust link color */
+  font-weight: bold; /* Make links bold */
+  transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+.navbar-nav li a:hover {
+  color: #c47009; /* Change link color on hover */
+}
+
+/* Media query for screens smaller than 780px */
 /* Media query for screens smaller than 780px */
 @media (max-width: 780px) {
   .navbar {
@@ -44,3 +68,4 @@
     margin-bottom: 10px; /* Reduce margin between nav items */
   }
 }
+

@@ -7,7 +7,7 @@
     background-color: #f8f9fa;
     background-image: url('../../assets/Landing/IsringBuilding.jpg');
     background-size: cover;
-    background-position: center;
+    background-position:stick;
     overflow: hidden;
 }
 
