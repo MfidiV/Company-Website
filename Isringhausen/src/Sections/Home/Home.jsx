@@ -22,7 +22,7 @@ function Home() {
 
               <div className="d-flex justify-content-center justify-content-lg-start">
                 <a href="#about" className=" btn btn-get-started">Location</a>
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox btn btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
+                <a href="https://www.youtube.com/watch?v=JnSZXEhAcfc" className="glightbox btn btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
               </div>
             </div>
           </div>
