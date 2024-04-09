@@ -84,4 +84,9 @@ footer {
   .text-reset.fw-bold:hover {
     text-decoration: none; /* Remove underline on hover */
   }
+  @media only screen and (max-width: 768px) {    
+  .Footer-container {
+    display: none;
   
+  }
+  }
