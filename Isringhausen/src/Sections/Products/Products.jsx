@@ -1,7 +1,6 @@
-import React from "react";
-import "./products.css"; // Import CSS file for styling
-
-// Images imports
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./products.css";
 import image01 from "../../assets/Seat_Products/2021-mine-3000.png";
 import image02 from "../../assets/Seat_Products/img01.jpg";
 import image03 from "../../assets/Seat_Products/img02.jpg";
@@ -65,7 +64,8 @@ const images = [
     src: image03, // Reusing the same image
     alt: "img02.jpg",
     desc: "ISRI 100/575 driver Seat",
-  },{
+  },
+  {
     src: image10, // Reusing the same image
     alt: "Bus06",
     desc: "ISRI 6000/577 driver Seat",
@@ -78,24 +78,28 @@ const images = [
 ];
 
 const Products = () => {
+  const navigate = useNavigate();
+
+
   return (
     <div className="products" id="products">
-     <div className ="heading">
-       <h2>Products</h2>
-    </div>
+      <div className="heading">
+        <h2>Products</h2>
+      </div>
       <div className="gallery-container">
         {images.map((image, index) => (
           <div className="responsive" key={index}>
             <div className="gallery">
-              <a href={image.src} target="_blank" rel="noopener noreferrer">
-                <img src={image.src} alt={image.alt} />
-              </a>
+              <img
+                src={image.src}
+                alt={image.alt}
+                onClick={() => navigate("/eventsPage")}
+              />
               <div className="desc">{image.desc}</div>
             </div>
           </div>
         ))}
       </div>
-    
     </div>
   );
 };

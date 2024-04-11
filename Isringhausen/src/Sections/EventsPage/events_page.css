@@ -1,11 +1,36 @@
-.events-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
+.Eventspage {
+  text-align: center;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.breadcrumbs {
+  margin-top: 20px;
+}
+
+.back-to-home {
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #555;
+}
+
+.separator {
+  margin: 0 5px;
+  color: #777;
+}
+
+.message {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #555;
+}
