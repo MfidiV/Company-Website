@@ -41,9 +41,9 @@ const Profile = () => {
           <div className="col-md-6 information">
             <div className="d-flex align-items-center justify-content-center">
               <div>
-                <p><strong>ISRINGHAUSEN</strong> – a company of the AUNDE Group – is the global market leader in the development and production of innovative seating systems and technical springs.</p>
+                <p><strong>Buno Seats Pty(Ltd)</strong> , a company of the D'Banj Group – global market leaders in the development and production of innovative seating systems and technical springs.</p>
                 <ul>
-                  <li>Owns 52 plants in 20 countries for the production of driver, passenger, and rear passenger seats for trucks, vans, buses, and off-road vehicles.</li>
+                  <li>Owns 20 plants in 12 countries for the production of driver, passenger, and rear passenger seats for trucks, vans, buses, and off-road vehicles.</li>
                   <li>Products are custom developed for the widest variety of demands and are characterized by reliability, durability, and the highest quality.</li>
                   <li>Offers its customers comprehensive service, from the product idea, exclusive design, styling, and development to prototyping and series production. Partners are supplied from plants with optimal production depth, individual JIT/JIS service, and a worldwide presence. Commercial vehicle industry leaders are among our customers.</li>
                 </ul>
