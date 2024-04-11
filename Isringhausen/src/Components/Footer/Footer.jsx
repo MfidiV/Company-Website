@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <section className="Footer-container">
         <div className="CompanyDetails">
-          <h2 className="text-uppercase fw-bold mb-4">ISRING<span>HAUSEN</span></h2>
+          <h2 className="text-uppercase fw-bold mb-4">BUNO <span>SEAT</span></h2>
           <p>
           A global market leader in the development and manufacture of 
           innovative seating systems for commercial vehicles as well as technical springs.
@@ -78,10 +78,10 @@ function Footer() {
         <div className="ContactUs-container">
           <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
           <p>
-            <i className="fas fa-home me-3"></i> 14 Napier Rd, Woodbrook ,E.L
+            <i className="fas fa-home me-3"></i>Cnr Alycon&Mazibuko Str,Coega ,P.E
           </p>
           <p>
-            <i className="fas fa-envelope me-3"></i> reception@isri.co.za
+            <i className="fas fa-envelope me-3"></i> reception@bunoseats.co.za
           </p>
           <p>
             <i className="fas fa-phone me-3"></i> (043)-290 9922
