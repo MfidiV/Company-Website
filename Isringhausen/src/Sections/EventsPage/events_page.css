@@ -1,15 +1,22 @@
+/* body{
+  background-color: #777;
+} */
 .Eventspage {
   text-align: center;
+  
 }
 
 .container1 {
   max-width: 800px;
+  height: 600px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #1ee7e0;
 }
 
 .breadcrumbs {
   margin-top: 20px;
+  text-align:start;
 }
 
 .back-to-home {
@@ -30,7 +37,8 @@
 }
 
 .message {
+  border: 1px solid black;
   font-size: 18px;
   margin-top: 20px;
-  color: #555;
+  color: #000205;
 }

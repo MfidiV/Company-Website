@@ -14,6 +14,7 @@ function EventsPage() {
 
   return (
     <section className="Eventspage">
+
       <div className="container1">
         <TopBar/>
         <div className="breadcrumbs">
@@ -25,8 +26,7 @@ function EventsPage() {
             </React.Fragment>
           ))}
         </div>
-        <h1>Events Page</h1>
-        <p className="message">More details about the selected image <br/>will be available here in the future. Stay tuned!</p>
+        <p className="message"><strong>More details about the selected image <br/>will be available here in the future. Stay tuned!</strong></p>
       </div>
     </section>
   );
