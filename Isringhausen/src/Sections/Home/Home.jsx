@@ -16,12 +16,12 @@ function Home() {
                   A global market leader in the development and manufacture of innovative seating systems for commercial vehicles as well as technical springs.
                   <br/>
                   <ul>
-                    <li>52 plants across 20 countries form the backbone of our manufacturing infrastructure.</li>
+                    <li>20 plants in 12 countries form the backbone of our manufacturing infrastructure.</li>
                   </ul>
                 </p>
 
               <div className="d-flex justify-content-center justify-content-lg-start">
-                <a href="#about" className=" btn btn-get-started">Location</a>
+                <a href="#contact" className=" btn btn-get-started">Location</a>
                 <a href="https://www.youtube.com/watch?v=JnSZXEhAcfc" className="glightbox btn btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
               </div>
             </div>
