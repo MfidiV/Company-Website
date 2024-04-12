@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'; // Import CSS file for component-specific styles
-import heroImage from '../../assets/Landing/IsringBuilding.jpg'; // Import the image file
+import heroImage from '../../assets/Landing/Pexel-factory.jpg'; // Import the image file
 import IconBox from '../../Components/IconBox';
 
 function Home() {

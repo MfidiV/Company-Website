@@ -5,9 +5,9 @@
     position: relative;
     padding: 100px 0; /* Add 0 padding to the top */
     background-color: #f8f9fa;
-    background-image: url('../../assets/Landing/Pexel-factory.jpg');
+    /* background-image: url('../../assets/Landing/Pexel-factory.jpg'); */
     background-size: cover;
-    background-position:stick;
+    /* background-position:stick; */
     overflow: hidden;
 }
 
@@ -151,7 +151,7 @@
       font-size: 14px; /* Further decrease font size for very small screens */
     }
 
-    .row1{
+    .row{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
