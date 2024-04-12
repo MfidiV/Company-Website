@@ -6,7 +6,7 @@ import isrilogo from '../assets/Logo/isri.gif';
 function IconBox() {
   return (
     <div className="container mt-5">
-      <div className="row justify-content-center">
+      <div className="row row2 justify-content-center">
         <div className="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div className="icon-box">
             <div className="icon"><i className="bi bi-easel"></i></div>
