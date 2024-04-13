@@ -40,7 +40,7 @@ const Profile = () => {
           </div>
           <div className="col-md-6 information">
             <div className="d-flex align-items-center justify-content-center">
-              <div>
+              <div className="comp-profile">
                 <p><strong>Buno Seats Pty(Ltd)</strong> , a company of the D'Banj Group – global market leaders in the development and production of innovative seating systems and technical springs.</p>
                 <ul>
                   <li>Owns 20 plants in 12 countries for the production of driver, passenger, and rear passenger seats for trucks, vans, buses, and off-road vehicles.</li>

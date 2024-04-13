@@ -54,4 +54,15 @@
     margin-bottom: 10px; /* Adjust as needed */
     font-size: 18px; /* Increase font size for list items */
   }
-  
+  @media (max-width: 430px) {
+    .profile-container {
+      margin-top: 30px;
+      padding: 10px;
+    }
+    .comp-profile p{
+      font-size: 20px;
+    }
+    .information ul {
+      margin-top: 18px; /* Add space between list items */
+    }
+  }
