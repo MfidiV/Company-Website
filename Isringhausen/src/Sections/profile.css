@@ -20,7 +20,9 @@
     margin-top: 30px;
   }
   
-  
+  .comp-profile p{
+    font-size: 21px;
+  }
   .carousel {
     height: 500px;
     border-radius: 20px; /* Rounded corners for the carousel */

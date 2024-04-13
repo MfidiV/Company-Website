@@ -16,12 +16,9 @@
         /* flex-wrap: wrap; */
         flex-direction: column;
         margin-top: 1rem;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
-    .icon-box {
-        margin-right: 50px;
-        margin-left: 50px;  
-        padding: 20px;
-       flex-wrap: wrap;
-    }
+
 }

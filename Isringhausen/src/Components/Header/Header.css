@@ -34,6 +34,9 @@ img, svg {
 /* Media query for screens smaller than 780px */
 /* Media query for screens smaller than 780px */
 @media (max-width: 780px) {
+  .header{
+    padding-top:20px;
+  }
   .navbar {
     display: none; /* Hide the navbar by default on small screens */
     flex-direction: column;

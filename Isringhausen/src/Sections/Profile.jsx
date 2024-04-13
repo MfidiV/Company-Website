@@ -45,7 +45,7 @@ const Profile = () => {
                 <ul>
                   <li>Owns 20 plants in 12 countries for the production of driver, passenger, and rear passenger seats for trucks, vans, buses, and off-road vehicles.</li>
                   <li>Products are custom developed for the widest variety of demands and are characterized by reliability, durability, and the highest quality.</li>
-                  <li>Offers its customers comprehensive service, from the product idea, exclusive design, styling, and development to prototyping and series production. Partners are supplied from plants with optimal production depth, individual JIT/JIS service, and a worldwide presence. Commercial vehicle industry leaders are among our customers.</li>
+                  <li>Offers its customers comprehensive service, from the product idea, exclusive design, styling, and development to prototyping and series production.</li>
                 </ul>
               </div>
             </div>
