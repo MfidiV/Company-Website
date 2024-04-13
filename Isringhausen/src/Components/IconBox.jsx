@@ -1,4 +1,5 @@
 import React from 'react';
+import './Styles/IconBox.css';
 import aunde from '../assets/Logo/aunde.jpg';
 import fehrer from '../assets/Logo/fehrer.jpg';
 import isrilogo from '../assets/Logo/isri.gif';
@@ -6,7 +7,7 @@ import isrilogo from '../assets/Logo/isri.gif';
 function IconBox() {
   return (
     <div className="container mt-5">
-      <div className="row row2 justify-content-center">
+      <div className="row2 justify-content-center">
         <div className="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div className="icon-box">
             <div className="icon"><i className="bi bi-easel"></i></div>

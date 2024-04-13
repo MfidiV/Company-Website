@@ -1,0 +1,27 @@
+.row2 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+@media (min-width: 430px) {
+    .row2 {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .icon-box {
+        margin-right: 50px;
+        margin-left: 50px;  
+        padding: 20px;
+       flex-wrap: wrap;
+    }
+}
