@@ -7,89 +7,89 @@ import "./distributor.css";
 const DistributorDetails = () => {
   const [distributors] = useState([
     {
-      name: "All-Pro Products",
+      name: "Elite Seating",
       location: "Cape Town",
       province: "Western Cape",
-      tel: "(021) 511-5205",
+      tel: "(021) 500-5111",
       fax: "(021) 511-5259",
-      email: "all-pro@mweb.co.za"
+      email: "vicky@Telkom.co.za"
     },
     {
-      name: "ATA-Mining Supplies",
-      location: "Middelburg/Witbank",
-      tel: "(013) 650 1237",      
-      cel: "083 415 7474",
-      email: "admin@ataminingsupplies.co.za"
+      name: "Comfort Crafts",
+      location: "Witbank",
+      tel: "(013) 278 9898",      
+      cel: "083 278 9898",
+      email: "admin@comfycrafts.co.za"
     },
     {
-      name: "Chairman",
-      location: "Paarl",
+      name: "Prime Seating ",
+      location: "Durbanville",
       province: "Western Cape",
-      tel: "(082) 874 4026",
-      email: "jackie@the-chairman.co.za"
+      tel: "(082) 123 4567",
+      email: "admin@primeseating .co.za"
     },
     {
-      name: "J.M. Free & Associates",
+      name: "Summit Seat",
       location: "Durban",
       province: "Kwa-Zulu Natal",
-      tel: "(031) 702-4545",
-      fax: "(031) 702-4512",
-      email: "seatsjmf@iburst.co.za"
+      tel: "(031) 123 4567",
+      fax: "(031) 123 8765",
+      email: "admins@telkom.co.za"
     },
     {
-      name: "The Seat Connection",
-      location: "Johannesburg (Edenvale)",
+      name: "Optimum Seating",
+      location: "Johannesburg",
       province: "Gauteng",
-      tel: "(011) 452-6802",
-      fax: "(011) 452-7103",
-      email: "info@seatconnection.co.za"
+      tel: "(011) 452-0000",
+      fax: "(011) 452-0000",
+      email: "info@optimum.co.za"
     },
     {
-      name: "Truck Seat",
+      name: "Mayivuthelwe",
       location: "Bloemfontein",
       province: "Free State",
-      tel: "(051) 522-2922",
-      email: "henryvw@vodamail.co.za"
+      tel: "(051) 000 1234",
+      email: "abongile@gmail.co.za"
     },
     {
-      name: "Weskus Filters",
-      location: "Springbok",
-      province: "Northern Cape",
-      tel: "(027) 718-1280",
-      fax: "(027) 712-1332",
-      email: "sales@weskusfilters.co.za"
+      name: "Bongie & Shaun ",
+      location: "Bellvile",
+      province: "Western Cape",
+      tel: "(021) 999-3220",
+      fax: "(021) 999-3220",
+      email: "sales@bsdist.co.za"
     },
     {
-      name: "M B Truck Spares",
+      name: "Wesley Spares",
       location: "Windhoek",
       province: "Namibia",
-      tel: "264 61 234 710",
-      fax: "264 61 235 401",
-      email: "frank@mbtruckspares.com"
+      tel: "098 76 786 666",
+      fax:  "098 76 786 666",
+      email: "wesley@telkom.com"
     },
     {
-      name: "Autoglass and Upholsterers",
-      location: "Richards Bay",
-      province: "Kwazulu Natal",
-      tel: "(035) 751 1015/1573",
-      fax: "(035) 751 1105",
-      email: "rbau@telkomsa.net"
+      name: "T'dos and X",
+      location: "East London",
+      province: "Esatern Cape",
+      tel: "(043) 222 4532",
+      fax: "(043) 751 1105",
+      email: "majita@telkom.net"
     },
     {
-      name: "Pro Seat",
+      name: "Luxe Lounge",
       location: "Jet Park",
       province: "Gauteng",
-      tel: "(011) 397 8731",
-      fax: "(011) 397 8745",
-      email: "manager@proseat.co.za"
+      tel: "(011) 111 6576",
+      fax: "(011) 111 6576",
+      email: "reception@luxelounge.com"
     },
     {
-      name: "Execu Upholsterers",
+      name: "Premium Comfort ",
       location: "Middelburg",
       province: "Gauteng",
-      tel: "(013) 246 2153",
-      fax: "(013) 086 664 9820",
-      email: "execuseats@telkomsa.net"
+      tel: "(013) 604 9820",
+      fax: "(013) 604 9820",
+      email: "premiumcomfort@telkomsa.net"
     },
   ]);
   const settings = {
