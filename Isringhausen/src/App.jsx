@@ -3,12 +3,12 @@ import React from 'react';
 import './App.css';
 import TopBar from './Components/Top_Bar/TopBar.jsx';
 import Header from './Components/Header/Header.jsx';
-import Home from './Sections/Home/Home.jsx';
-import Profile from './Sections/Profile.jsx';
+import Home from './Components/Home.jsx';
+import Profile from './Components/Profile.jsx';
 import Footer from './Components/Footer/Footer.jsx';
-import Contact from './Sections/Contact/Contact.jsx';
-import Products from './Sections/Products/Products.jsx';
-import EventsPage from './Sections/Products/EventsPage.jsx';
+import Contact from './Components/Contact.jsx';
+import Products from './Components/Products.jsx';
+import SelectedImage from './Sections/SelectedImage.jsx' 
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Routes>
   
           <Route exact path="/" element={<HomePage />} />
-          <Route path="/eventsPage" element={<EventsPage />} />
+          <Route path="/SelectedImage" element={<SelectedImage />} />
         </Routes>
       </div>
     </BrowserRouter>

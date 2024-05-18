@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./products.css";
-import image01 from "../../assets/Seat_Products/2021-mine-3000.png";
-import image02 from "../../assets/Seat_Products/img01.jpg";
-import image03 from "../../assets/Seat_Products/img02.jpg";
-import image04 from "../../assets/Seat_Products/img04.jpg";
-import image05 from "../../assets/Seat_Products/img12.jpg";
-import image06 from "../../assets/Seat_Products/ISRI-6830KM-870-AIR-SEAT-500x749.jpg";
-import image07 from "../../assets/Seat_Products/6030_880_Large.png";
-import image08 from "../../assets/Seat_Products/Bus.jpg";
-import image09 from "../../assets/Seat_Products/img11.jpg";
-import image10 from "../../assets/Seat_Products/Bus06.jpg";
-import image11 from "../../assets/Seat_Products/VOLVO-air-seat-shovel-ISRI-air-6500-500x678.jpg";
-import image12 from "../../assets/Seat_Products/csm_tabbar_lkw_418d154521.jpg";
+import "../Components/Styles/products.css";
+import image01 from "../assets/Seat_Products/2021-mine-3000.png";
+import image02 from "../assets/Seat_Products/img01.jpg";
+import image03 from "../assets/Seat_Products/img02.jpg";
+import image04 from "../assets/Seat_Products/img04.jpg";
+import image05 from "../assets/Seat_Products/img12.jpg";
+import image06 from "../assets/Seat_Products/ISRI-6830KM-870-AIR-SEAT-500x749.jpg";
+import image07 from "../assets/Seat_Products/6030_880_Large.png";
+import image08 from "../assets/Seat_Products/Bus.jpg";
+import image09 from "../assets/Seat_Products/img11.jpg";
+import image10 from "../assets/Seat_Products/Bus06.jpg";
+import image11 from "../assets/Seat_Products/VOLVO-air-seat-shovel-ISRI-air-6500-500x678.jpg";
+import image12 from "../assets/Seat_Products/csm_tabbar_lkw_418d154521.jpg";
 
 const images = [
   {
@@ -144,7 +144,7 @@ const Products = () => {
               <img
                 src={image.src}
                 alt={image.alt}
-                onClick={() => navigate("/eventsPage", { state: { image } })}
+                onClick={() => navigate("/SelectedImage", { state: { image } })}
               />
               <div className="desc">{image.desc}</div>
             </div>

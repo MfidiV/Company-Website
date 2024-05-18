@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import '../EventsPage/events_page.css';
-import TopBar from '../../Components/Top_Bar/TopBar';
+import '../Components/Styles/SelectedImage.css';
+import TopBar from '../Components/Top_Bar/TopBar';
 
 function EventsPage() {
   const location = useLocation();
@@ -15,7 +15,7 @@ function EventsPage() {
         <div className="breadcrumbs">
           <Link to="/" className="back-to-home">Back to Home</Link>
           <span className="separator"> / </span>
-          <Link to="/eventsPage" className="breadcrumb-link">Events Page</Link>
+          <Link to="/SelectedImage" className="breadcrumb-link">Selected Image</Link>
         </div>
         {image ? (
           <div className='ImageSelected'>

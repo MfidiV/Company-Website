@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./contact.css";
-import DistributorDetails from "../../Components/Distributors/DistributorsDetails";
+import "./Styles/contact.css";
+import DistributorDetails from "./DistributorsDetails";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
