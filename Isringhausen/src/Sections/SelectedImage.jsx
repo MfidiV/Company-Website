@@ -10,8 +10,9 @@ function SelectedImage() {
 
   return (
     <section className="Eventspage">
+      <TopBar />
       <div className="container1">
-        <TopBar />
+        
         <div className="breadcrumbs">
           <Link to="/" className="back-to-home">Back to Home</Link>
           <span className="separator"> / </span>
@@ -50,6 +51,15 @@ function SelectedImage() {
         ) : (
           <p className="message"><strong>More details about the selected image will be available here in the future. Stay tuned!</strong></p>
         )}
+      </div>
+      <div
+        className=" m-2 text-center p-4"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+      >
+        © 2024 Copyright -  
+        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+           Mfidi Vuyolwethu
+        </a>
       </div>
     </section>
   );
