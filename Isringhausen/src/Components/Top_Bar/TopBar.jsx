@@ -9,7 +9,7 @@ const TopBar = () => {
   return (
     <section id="topbar" className="topbar py-2 bg-dark text-light">
       <div className="container">
-        <div className="row justify-content-around align-items-center">
+        <div className="contain row justify-content-around align-items-center">
           
           {/* Contact Information */}
           <div className="col-md-6 col-lg-8 contact-info d-flex align-items-center">

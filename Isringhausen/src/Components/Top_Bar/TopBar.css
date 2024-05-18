@@ -7,7 +7,15 @@
   
   /* Media Query for Small Screens (max-width: 320px) */
   @media (max-width: 320px) {
-    .top-b {
+    .top-b .social-links{
       align-items: center; /* Center align items on small screens */
+    }
+    .contact-info{
+      align-items: center;
+      flex-direction: column;
+      gap: 0;
+    }
+    .social-links{
+      display: contents;
     }
   }
