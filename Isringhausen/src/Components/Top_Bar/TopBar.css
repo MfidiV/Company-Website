@@ -3,3 +3,7 @@
         align-items: center;
     }
 }
+.contact-info{
+    display: flex;
+    gap: 2rem;
+}

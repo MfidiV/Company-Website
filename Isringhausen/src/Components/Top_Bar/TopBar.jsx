@@ -11,8 +11,10 @@ const TopBar = () => {
       <div className=" container">
         <div className="top-b row justify-content-around align-items-center">
           <div className="col-md-6 col-lg-8 contact-info">
-            <FontAwesomeIcon icon={faEnvelope} className="me-2" />
+            <div>
+              <FontAwesomeIcon icon={faEnvelope} className="me-2" />
             <a href="mailto:contact@example.com" className="text-decoration-none text-light">reception@bunoseats.co.za</a>
+            </div>
             {/* <span className="ms-2 me-2">|</span> */}
             <div>
             <FontAwesomeIcon icon={faPhone} className="me-2" />
@@ -21,10 +23,10 @@ const TopBar = () => {
             
           </div>
           <div className="col-md-6 col-lg-4 social-links text-md-end mt-2 mt-md-0">
-            <a href="#" className="twitter text-light me-3"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#" className="facebook text-light me-3"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#" className="instagram text-light me-3"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="#" className="linkedin text-light me-3"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https:www.twitter.com" className="twitter text-light me-3"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="www.facebook.com" className="facebook text-light me-3"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="www.instagram.com" className="instagram text-light me-3"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="www.linkedin.com" className="linkedin text-light me-3"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
       </div>
