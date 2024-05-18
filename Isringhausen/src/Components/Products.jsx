@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../Components/Styles/products.css";
+import "../Styles/products.css";
 import image01 from "../assets/Seat_Products/2021-mine-3000.png";
 import image02 from "../assets/Seat_Products/img01.jpg";
 import image03 from "../assets/Seat_Products/img02.jpg";

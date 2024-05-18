@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import '../Components/Styles/SelectedImage.css';
+import './SelectedImage.css'
 import TopBar from '../Components/Top_Bar/TopBar';
 
-function EventsPage() {
+function SelectedImage() {
   const location = useLocation();
   const { state } = location;
   const { image } = state || {};
@@ -55,4 +55,4 @@ function EventsPage() {
   );
 }
 
-export default EventsPage;
+export default SelectedImage;

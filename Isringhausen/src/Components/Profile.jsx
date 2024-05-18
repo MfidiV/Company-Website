@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
-import "./Styles/profile.css"; // Import custom CSS file for styling
+import "../Styles/profile.css"; // Import custom CSS file for styling
 import image01 from '../assets/Photos/NTS 2 ISRI-Seat.jpg';
 import image03 from "../assets/Photos/ISRI bUS.jpg";
 import image04 from "../assets/Photos/1675414528902.jpg"

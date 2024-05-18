@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles/Home.css'; // Import CSS file for component-specific styles
+import '../Styles/Home.css'; // Import CSS file for component-specific styles
 import heroImage from '../assets/Landing/Pexel-factory.jpg'; // Import the image file
 import IconBox from './IconBox';
 
