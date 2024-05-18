@@ -93,7 +93,7 @@ const Products = () => {
               <img
                 src={image.src}
                 alt={image.alt}
-                onClick={() => navigate("/eventsPage")}
+                onClick={() => navigate("/eventsPage", { state: { image } })}
               />
               <div className="desc">{image.desc}</div>
             </div>

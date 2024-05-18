@@ -1,22 +1,24 @@
-/* body{
-  background-color: #777;
-} */
+body {
+  background-color: #f0f0f0;
+}
+
 .Eventspage {
   text-align: center;
-  
+  font-family: 'Arial, sans-serif';
 }
 
 .container1 {
   max-width: 800px;
-  height: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #1ee7e0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .breadcrumbs {
   margin-top: 20px;
-  text-align:start;
+  text-align: start;
 }
 
 .back-to-home {
@@ -36,9 +38,31 @@
   color: #777;
 }
 
+.image-container {
+  margin-top: 20px;
+}
+
+.selected-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.desc {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff;
+  position:relative;
+ 
+}
+
 .message {
-  border: 1px solid black;
+  border: 1px solid #ddd;
+  padding: 20px;
   font-size: 18px;
   margin-top: 20px;
-  color: #000205;
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 8px;
 }

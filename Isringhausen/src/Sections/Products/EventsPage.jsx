@@ -5,28 +5,27 @@ import TopBar from '../../Components/Top_Bar/TopBar';
 
 function EventsPage() {
   const location = useLocation();
-
-  // Extract the pathname from the current location
-  const pathname = location.pathname;
-
-  // Split the pathname into an array of segments
-  const segments = pathname.split('/').filter(segment => segment !== '');
+  const { state } = location;
+  const { image } = state || {};
 
   return (
     <section className="Eventspage">
-
       <div className="container1">
         <TopBar/>
         <div className="breadcrumbs">
           <Link to="/" className="back-to-home">Back to Home</Link>
-          {segments.map((segment, index) => (
-            <React.Fragment key={index}>
-              <span className="separator"> / </span>
-              <Link to={`/${segment}`} className="breadcrumb-link">{segment}</Link>
-            </React.Fragment>
-          ))}
+          <span className="separator"> / </span>
+          <Link to="/eventsPage" className="breadcrumb-link">Events Page</Link>
         </div>
-        <p className="message"><strong>More details about the selected image <br/>will be available here in the future. Stay tuned!</strong></p>
+        {image ? (
+          <div>
+            <p className="desc">{image.desc}</p>
+            <img src={image.src} alt={image.alt} className="selected-image" />
+            
+          </div>
+        ) : (
+          <p className="message"><strong>More details about the selected image will be available here in the future. Stay tuned!</strong></p>
+        )}
       </div>
     </section>
   );

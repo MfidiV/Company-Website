@@ -15,8 +15,9 @@ function App() {
     <BrowserRouter>
       <div>
         <Routes>
-          <Route exact path="/" element={<HomePage />} /> {/* Render HomePage component on the home page */}
-          <Route path="/eventsPage" element={<EventsPage />} /> {/* Render EventsPage component on /eventsPage route */}
+  
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/eventsPage" element={<EventsPage />} />
         </Routes>
       </div>
     </BrowserRouter>
