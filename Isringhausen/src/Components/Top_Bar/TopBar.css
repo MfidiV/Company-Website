@@ -1,9 +1,13 @@
-@media (max-width: 320px) {
-    .top-b{
-        align-items: center;
+
+  /* Contact Information Styling */
+  .contact-info {
+    display: flex; 
+    gap: 2rem; /* space between contact details(Phone and Email) */
+  }
+  
+  /* Media Query for Small Screens (max-width: 320px) */
+  @media (max-width: 320px) {
+    .top-b {
+      align-items: center; /* Center align items on small screens */
     }
-}
-.contact-info{
-    display: flex;
-    gap: 2rem;
-}
+  }
