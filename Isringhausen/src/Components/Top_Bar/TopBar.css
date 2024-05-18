@@ -6,7 +6,7 @@
   }
   
   /* Media Query for Small Screens (max-width: 320px) */
-  @media (max-width: 320px) {
+  @media (max-width: 760px) {
     .top-b .social-links{
       align-items: center; /* Center align items on small screens */
     }
