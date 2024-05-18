@@ -19,61 +19,112 @@ const images = [
     src: image08,
     alt: "Bus.png",
     desc: "Commuter Seat 2005",
+    applications: ["Bus", "Public Transport"],
+    features: ["Ergonomic Design", "Durable Material"],
+    options: ["Custom Upholstery", "Adjustable Headrest"],
   },
   {
     src: image02,
     alt: "Commuter 2000.jpg",
     desc: "Commuter 2000 Bus Seat",
+    applications: ["Bus", "Shuttle"],
+    features: ["High Durability", "Comfort Padding"],
+    options: ["Various Colors", "Armrests"],
   },
   {
     src: image09,
     alt: "img11.jpg",
     desc: "Commuter",
+    applications: ["Commuter Vehicles"],
+    features: ["Reclining Mechanism", "Adjustable Height"],
+    options: ["Leather Upholstery", "Integrated Seatbelt"],
   },
   {
-    src: image04, // Reusing the same image
+    src: image04,
     alt: "img04.jpg",
     desc: "Bus commuter Seat",
+    applications: ["Bus"],
+    features: ["Anti-Slip Material", "Lightweight"],
+    options: ["Cup Holder", "Reading Light"],
   },
   {
-    src: image05, // Reusing the same image
+    src: image05,
     alt: "img12.jpg",
     desc: "ISRI 6860/870 AIR-SEAT",
+    applications: ["Trucks", "Construction Vehicles"],
+    features: ["Air Suspension", "Adjustable Armrests"],
+    options: ["Heated Seat", "Massage Function"],
   },
   {
-    src: image06, // Reusing the same image
+    src: image06,
     alt: "ISRI-6830KM-870-AIR-SEAT-500x749.jpg",
     desc: "ISRI 6830KM/880 AIR SEAT",
+    applications: ["Truck Driver Seat"],
+    features: [
+      "Backrest Reclining Mechanism",
+      "Seat Height & Slope Adjustment",
+      "Suspension Dust Cover",
+      "Front Operated Double Locking Slides"
+    ],
+    options: [
+      "Style of Backrest – 575, 577",
+      "2 Point Safety Lap Belt",
+      "RH or LH Operating Handles",
+      "Adjustable Armrests",
+      "Headrest",
+      "Cloth or Vinyl Upholstery (Local & Imported)",
+      "ABS Backing",
+      "Turntable",
+      "Side operated Reinforced slides"
+    ],
   },
   {
-    src: image07, // Reusing the same image
+    src: image07,
     alt: "6030_880_Large.png",
     desc: "ISRI 6030/880 Large",
+    applications: ["Heavy Duty Trucks"],
+    features: ["Heavy Duty Suspension", "Wide Seat Base"],
+    options: ["Gel Cushion", "Custom Embroidery"],
   },
   {
-    src: image12, // Reusing the same image
+    src: image12,
     alt: "Isri_NTS2.jpg",
     desc: "NTS-2 6860kM/870",
+    applications: ["Commercial Vehicles"],
+    features: ["Compact Design", "Energy Absorption"],
+    options: ["Cooling System", "Integrated Speakers"],
   },
   {
-    src: image11, // Reusing the same image
+    src: image11,
     alt: "VOLVO-air-seat-shovel-ISRI-air-6500-500x678.jpg",
     desc: "ISRI-Air-6500 Shovel",
+    applications: ["Construction Equipment"],
+    features: ["Enhanced Cushioning", "Sturdy Frame"],
+    options: ["Waterproof Cover", "Lumbar Support"],
   },
   {
-    src: image03, // Reusing the same image
+    src: image03,
     alt: "img02.jpg",
     desc: "ISRI 100/575 driver Seat",
+    applications: ["Trucks"],
+    features: ["Basic Suspension", "Ergonomic Shape"],
+    options: ["Adjustable Lumbar", "Vibration Dampening"],
   },
   {
-    src: image10, // Reusing the same image
+    src: image10,
     alt: "Bus06",
     desc: "ISRI 6000/577 driver Seat",
+    applications: ["Buses"],
+    features: ["High Backrest", "Adjustable Armrests"],
+    options: ["Integrated Controls", "Memory Foam"],
   },
   {
-    src: image01, // Reusing the same image
+    src: image01,
     alt: "2021-mine-300.jpg",
     desc: "2021-mine-300",
+    applications: ["Mining Vehicles"],
+    features: ["Heavy Duty Build", "Enhanced Safety"],
+    options: ["Adjustable Headrest", "Removable Cushion"],
   },
 ];
 
