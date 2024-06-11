@@ -90,7 +90,7 @@ const DistributorDetails = () => {
       province: "Gauteng",
       tel: "(013) 604 9820",
       fax: "(013) 604 9820",
-      email: "premiumcomfort@telkomsa.net"
+      email: "premium@telkomsa.net"
     },
   ]);
   const settings = {

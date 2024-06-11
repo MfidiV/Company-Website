@@ -8,6 +8,7 @@
 .slideshow-container {
   margin: 0 20px;
   padding: 0 20px;
+  font-size: 15px;
 }
 
 .distributor-card {
@@ -43,12 +44,17 @@
   padding: 0 20px;
 }
 
+.slick-slide {
+  padding: 0 10px; /* Add padding here to create space between slides */
+}
+
 .distributor-card {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 240px;
+  width: 100%;
+
 }
 
 .distributor-name {
@@ -65,4 +71,11 @@
 .details strong {
   font-weight: bold;
   margin-right: 5px;
+}
+
+@media (max-width: 870px) {
+  .slideshow-container {
+
+    font-size: 13px;
+  }
 }

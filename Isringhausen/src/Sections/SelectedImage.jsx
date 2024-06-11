@@ -1,30 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './SelectedImage.css'
+import './SelectedImage.css';
 import TopBar from '../Components/Top_Bar/TopBar';
 
 function SelectedImage() {
   const location = useLocation();
   const { state } = location;
   const { image } = state || {};
+  const [showMessage, setShowMessage] = useState(false);
+
+  const handleDiagramClick = () => {
+    setShowMessage(true);
+  };
 
   return (
     <section className="Eventspage">
       <TopBar />
       <div className="container1">
-        
         <div className="breadcrumbs">
+        <span className="separator"> \ </span>
           <Link to="/" className="back-to-home">Back to Home</Link>
-          <span className="separator"> / </span>
-          <Link to="/SelectedImage" className="breadcrumb-link">Selected Image</Link>
+          
         </div>
         {image ? (
           <div className='ImageSelected'>
             <p className="desc1">{image.desc}</p>
             <div className="image-container">   
               <div className='image-property'>
-                <img src={image.src} alt={image.alt} className="selected-image" />
-                <button className='Diagram'>View Diagram</button>
+                <img src={image.src} alt={image.alt || 'Selected image'} className="selected-image" />
+                <button className='Diagram' onClick={handleDiagramClick}>View Diagram</button>
+                {showMessage && <p className="diagram-message">No file</p>}
               </div>
               <div className="details">
                 <h3>Applications</h3>
@@ -53,7 +58,7 @@ function SelectedImage() {
         )}
       </div>
       <div
-        className=" m-2 text-center p-4"
+        className="m-2 text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2024 Copyright -  

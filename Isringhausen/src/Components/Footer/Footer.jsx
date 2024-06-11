@@ -6,30 +6,23 @@ function Footer() {
     <footer>
       <section className="Footer-container">
         <div className="CompanyDetails">
-          <h2 className="text-uppercase fw-bold mb-4">BUNO <span>SEAT</span></h2>
+          <h2 className="text-uppercase fw-bold mb-4">
+            BUNO <span>SEAT</span>
+          </h2>
           <p>
-          A global market leader in the development and manufacture of 
-          innovative seating systems for commercial vehicles as well as technical springs.
+            A global market leader in the development and manufacture of
+            innovative seating systems for commercial vehicles as well as technical springs.
           </p>
-          {/* Grid column */}
-          <div class="col-auto">
-            <p class="pt-2">
+          <div className="newsletter">
+            <p className="pt-2">
               <strong>Sign up for our newsletter</strong>
             </p>
-          </div>
-          {/* Grid column */}
-
-          {/* Grid column */}
-          <div class="col-md-5 col-12">
-            {/* Email input */}
-            <div data-mdb-input-init class="form-outline mb-2">
-              <input type="email" placeholder="Email" id="form5Example24" class="form-control" />
-             
+            <div className="form-outline mb-2">
+              <input type="email" placeholder="Email" id="form5Example24" className="form-control" />
             </div>
           </div>
-          {/* Grid column */}
         </div>
-        <div className="Product-container align-items-left">
+        <div className="Product-container">
           <h6 className="text-uppercase fw-bold mb-4">Products</h6>
           <p>
             <a href="#!" className="text-reset">
@@ -78,7 +71,7 @@ function Footer() {
         <div className="ContactUs-container">
           <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
           <p>
-            <i className="fas fa-home me-3"></i>Cnr Alycon&Mazibuko Str,Coega ,P.E
+            <i className="fas fa-home me-3"></i>Cnr Alycon & Mazibuko Str, Coega, P.E
           </p>
           <p>
             <i className="fas fa-envelope me-3"></i> reception@bunoseats.co.za
@@ -91,10 +84,7 @@ function Footer() {
           </p>
         </div>
       </section>
-      <div
-        className=" m-2 text-center p-4"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-      >
+      <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
         © 2024 Copyright:
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
           Mfidi Vuyolwethu
