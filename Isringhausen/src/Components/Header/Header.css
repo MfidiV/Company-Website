@@ -12,6 +12,10 @@ img, svg {
   height: 50px;
 }
 
+.svg-inline--fa {
+  padding-left: 16px;
+}
+
 .navbar-nav li {
   margin-right: 30px; /* Adjust margin between nav items */
 }
@@ -75,5 +79,6 @@ img, svg {
     flex-direction: column;
     margin-bottom: 10px; /* Reduce margin between nav items */
   }
+  
 }
 
