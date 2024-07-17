@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin: 20px;
+  margin: 15px;
   padding: 0;
   cursor: pointer;
+  margin-right: 50px;
 }
 
 img, svg {
@@ -28,11 +29,13 @@ img, svg {
   text-decoration: none;
   color: #333; /* Adjust link color */
   font-weight: bold; /* Make links bold */
+  font-size: 18px;
   transition: color 0.3s ease; /* Smooth transition for link color change */
 }
 
-.navbar-nav li a:hover {
-  color: #c47009; /* Change link color on hover */
+.navbar-nav li:hover {
+  border-bottom: 2px solid #c47009;;
+  /* color: #c47009;  */
 }
 
 /* Media query for screens smaller than 780px */
@@ -47,25 +50,28 @@ img, svg {
     position: absolute;
     top: calc(100% + 0px);
     right: 0;
-    width: 100%;
+    width: 80%;
+    height: 100vh; /* Full screen height */
     background-color: #c47009;
     color: white;
     border-top: 1px solid #ccc;
     border-radius: 0 0 20px 20px;
     z-index: 100;
     padding: 0;
+    
   }
 
   .navbar-nav {
- 
     display: flex;
     flex-direction: column;
     font-size: 20px;
     --bs-nav-link-color: white;
+    max-height: 900px;
   }
 
   .navbar.open {
-    display: flex; /* Show the navbar when open */
+    display: flex; /* Show the navbar when open */ 
+  }
   }
 
   .mobile-nav-toggle {
@@ -77,8 +83,7 @@ img, svg {
   
   .navbar-nav li {
     flex-direction: column;
-    margin-bottom: 10px; /* Reduce margin between nav items */
+
   }
   
-}
 
