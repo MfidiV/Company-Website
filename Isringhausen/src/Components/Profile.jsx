@@ -41,11 +41,11 @@ const Profile = () => {
           <div className="col-md-6 information">
             <div className="d-flex align-items-center justify-content-center">
               <div className="comp-profile">
-                <p><strong>Buno Seats Pty(Ltd)</strong> , a company of the D'Banj Group – global market leaders in the development and production of innovative seating systems and technical springs.</p>
+                <p><strong>Buno Seats Pty(Ltd)</strong> a member of the Global Seating Group, is a leading provider in the design and manufacturing of high-quality seating solutions.</p>
                 <ul>
-                  <li>Owns 20 plants in 12 countries for the production of driver, passenger, and rear passenger seats for trucks, vans, buses, and off-road vehicles.</li>
-                  <li>Products are custom developed for the widest variety of demands and are characterized by reliability, durability, and the highest quality.</li>
-                  <li>Offers its customers comprehensive service, from the product idea, exclusive design, styling, and development to prototyping and series production.</li>
+                  <li>15 manufacturing facilities across 10 countries, we specialize in crafting seats for a diverse range of vehicles, including cars, trucks, buses, and specialized equipment.</li>
+                  <li>Our products are tailored to meet a variety of customer needs, renowned for their reliability, durability, and exceptional quality.</li>
+                  <li>We offer a full spectrum of services, from initial concept and exclusive design to prototyping and mass production, ensuring our customers receive comprehensive support throughout the entire development process.</li>
                 </ul>
               </div>
             </div>

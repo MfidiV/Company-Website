@@ -1,32 +1,25 @@
 import React, { useState } from 'react';
 import { Link } from "react-scroll";
-// import { useHistory } from 'react-router-dom'; // Import useHistory from react-router-dom
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faUser, faBoxOpen, faCalendar, faConciergeBell, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../../assets/Logo/Logo.png';
 import './Header.css';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const history = useHistory(); // Get the history object from react-router-dom
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Function to navigate to the Events page
-  // const navigateToEventsPage = () => {
-  //   history.push('/events'); // Navigate to the /events route
-  //   setIsMenuOpen(false); // Close the menu
-  // };
-
-  // Function to handle click on navigation links
   const handleNavLinkClick = () => {
-    setIsMenuOpen(false); // Hide the menu when a navigation link is clicked
+    setIsMenuOpen(false);
   };
 
   return (
     <header id="header" className="header d-flex align-items-center bg-light sticky-top">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between flex-row">
-        <a href="index.html" className=" container logo d-flex align-items-center text-decoration-none">
+        <a href="index.html" className="container logo d-flex align-items-center text-decoration-none">
           <img src={Logo} alt="Logo" />
         </a>
         <nav id="navbar" className={`navbar ${isMenuOpen ? 'open' : ''}`}>
@@ -41,7 +34,7 @@ function Header() {
                 duration={0}
                 onClick={handleNavLinkClick}
               >
-                Home
+                <FontAwesomeIcon icon={faHome} /> Home
               </Link>
             </li>
             <li className="nav-item">
@@ -54,7 +47,7 @@ function Header() {
                 duration={0}
                 onClick={handleNavLinkClick}
               >
-                About
+                <FontAwesomeIcon icon={faUser} /> About
               </Link>
             </li>
             <li className="nav-item">
@@ -67,19 +60,35 @@ function Header() {
                 duration={0}
                 onClick={handleNavLinkClick}
               >
-                Products
+                <FontAwesomeIcon icon={faBoxOpen} /> Products
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#contact" >
-                Events
-              </a>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="events"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={0}
+                onClick={handleNavLinkClick}
+              >
+                <FontAwesomeIcon icon={faCalendar} /> Events
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#team" onClick={handleNavLinkClick}>
-                Team
-              </a>
-            </li> */}
+              <Link
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={0}
+                onClick={handleNavLinkClick}
+              >
+                <FontAwesomeIcon icon={faConciergeBell} /> Services
+              </Link>
+            </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -90,13 +99,11 @@ function Header() {
                 duration={0}
                 onClick={handleNavLinkClick}
               >
-                Contact
+                <FontAwesomeIcon icon={faEnvelope} /> Contact
               </Link>
             </li>
           </ul>
         </nav>
-        {/* .navbar */}
-        {/* Toggle button for mobile navigation */}
         <button className="mobile-nav-toggle btn btn-outline-dark d-block d-md-none" type="button" onClick={toggleMenu}>
           {isMenuOpen ? <span>&#10006;</span> : <span>&#9776;</span>}
         </button>
