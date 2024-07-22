@@ -14,9 +14,10 @@ function Home() {
               <h2>Comprehensive Seating <br></br> Solutions</h2>
               <div className="H_line"></div> {/* Straight line element */}
               <p>
-                  A global market leader in the development and manufacture of innovative seating systems for commercial vehicles as well as technical springs.
+              A global market leader in the development and manufacture of innovative seating systems. 
                   <br/>
                   <ul>
+                    <li>Specializing in Outdoor, Indoor, and Office chairs</li>
                     <li>20 plants in 12 countries form the backbone of our manufacturing infrastructure.</li>
                   </ul>
                 </p>

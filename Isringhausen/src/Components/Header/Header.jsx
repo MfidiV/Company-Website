@@ -53,6 +53,19 @@ function Header() {
             <li className="nav-item">
               <Link
                 activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={0}
+                onClick={handleNavLinkClick}
+              >
+                <FontAwesomeIcon icon={faConciergeBell} /> Services
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
                 to="products"
                 spy={true}
                 smooth={true}
@@ -73,22 +86,10 @@ function Header() {
                 duration={0}
                 onClick={handleNavLinkClick}
               >
-                <FontAwesomeIcon icon={faCalendar} /> Events
+                <FontAwesomeIcon icon={faCalendar} /> Blogs/Events
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={0}
-                onClick={handleNavLinkClick}
-              >
-                <FontAwesomeIcon icon={faConciergeBell} /> Services
-              </Link>
-            </li>
+            
             <li className="nav-item">
               <Link
                 activeClass="active"

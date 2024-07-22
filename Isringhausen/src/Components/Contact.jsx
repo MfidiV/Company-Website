@@ -138,7 +138,7 @@ const Contact = () => {
           {error && <p className="error">{error}</p>}
         </div>
       </div>
-      <DistributorDetails />
+      {/* <DistributorDetails /> */}
       {isModalOpen && (
         <div className="modal">
           <div className="modal-content">

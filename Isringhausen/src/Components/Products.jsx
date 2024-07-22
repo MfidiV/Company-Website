@@ -17,14 +17,7 @@ import image12 from "../assets/Seat_Products/foldingTable.png";
 
 
 const images = [
-  {
-    src: image08,
-    alt: "Finger Shaped.png",
-    'desc': "Finger Shaped 005",
-   " applications": ["Perfect for living rooms, reading nooks, and lounges"],
-    "features": ["Ergonomic Design", "Durable Material"],
-    "options": ["Custom Upholstery", "Adjustable Headrest"],
-  },
+
   {
     src: image02,
     alt: "Strain Net.jpg",
@@ -32,6 +25,14 @@ const images = [
     "applications": ["Ideal for dining rooms and kitchen seating"],
     "features": ["High Comfort", "Ergonomic Design"],
     "options": ["Various Fabrics", "Reclining Function"]
+  },
+  {
+    src: image08,
+    alt: "Finger Shaped.png",
+    'desc': "Finger Shaped 005",
+   " applications": ["Perfect for living rooms, reading nooks, and lounges"],
+    "features": ["Ergonomic Design", "Durable Material"],
+    "options": ["Custom Upholstery", "Adjustable Headrest"],
   },
   {
     src: image09,
