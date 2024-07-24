@@ -10,7 +10,7 @@
 
 img, svg {
   vertical-align: middle;
-  height: 50px;
+  height: 60px;
 }
 
 .svg-inline--fa {
@@ -30,7 +30,7 @@ img, svg {
   color: #333; /* Adjust link color */
   font-weight: bold; /* Make links bold */
   font-size: 18px;
-  transition: color 0.3s ease; /* Smooth transition for link color change */
+  transition: color 0.3s ease;
 }
 
 .navbar-nav li:hover {
@@ -38,7 +38,6 @@ img, svg {
   /* color: #c47009;  */
 }
 
-/* Media query for screens smaller than 780px */
 /* Media query for screens smaller than 780px */
 @media (max-width: 780px) {
   .header{

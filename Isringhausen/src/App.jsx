@@ -8,17 +8,24 @@ import Profile from './Components/Profile.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import Products from './Components/Products.jsx';
-import SelectedImage from './Sections/SelectedImage.jsx' 
+import Services from './Sections/Services/Services.jsx'; // Make sure to create this component
+import Content from './Sections/Blogs-Events/Content.jsx'; // Make sure to create this component
+import SelectedImage from './Sections/SelectedImage.jsx';
 
 function App() {
   return (
     <BrowserRouter>
+    
       <div>
+      <TopBar/>
         <Routes>
-  
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="" element={<HomePage />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/content" element={<Content />} />
           <Route path="/SelectedImage" element={<SelectedImage />} />
+          <Route path="*" element={<NotFound />} /> {/* Optional: handle 404 errors */}
         </Routes>
+        <Footer /> {/* Moved Footer outside of Routes so it appears on all pages */}
       </div>
     </BrowserRouter>
   );
@@ -28,15 +35,19 @@ function App() {
 const HomePage = () => {
   return (
     <div>
-      <TopBar/>
+      {/* <TopBar /> */}
       <Header/>
-      <Home/>
+      <Home />
       <Profile />
       <Products />
-      <Contact/>
-      <Footer/>
+      <Contact />
     </div>
   );
+};
+
+// Optional: Define a NotFound component for handling 404 errors
+const NotFound = () => {
+  return <div>Page Not Found</div>;
 };
 
 export default App;

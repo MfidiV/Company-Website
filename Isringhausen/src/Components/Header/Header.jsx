@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faBoxOpen, faCalendar, faConciergeBell, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../../assets/Logo/Logo.png';
@@ -51,45 +51,23 @@ function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={0}
+              <a
+                href="/services" // Change this to the actual URL of the services page
                 onClick={handleNavLinkClick}
+                // className="nav-link"
               >
                 <FontAwesomeIcon icon={faConciergeBell} /> Services
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="products"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={0}
+              <a
+                href="/content" // Change this to the actual URL of the content page
                 onClick={handleNavLinkClick}
-              >
-                <FontAwesomeIcon icon={faBoxOpen} /> Products
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="events"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={0}
-                onClick={handleNavLinkClick}
+                // className="nav-link"
               >
                 <FontAwesomeIcon icon={faCalendar} /> Blogs/Events
-              </Link>
+              </a>
             </li>
-            
             <li className="nav-item">
               <Link
                 activeClass="active"
