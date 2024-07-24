@@ -16,7 +16,7 @@ function Home() {
               <p>
               A global market leader in the development and manufacture of innovative seating systems. 
                   <br/>
-                  <ul>
+                  <ul className='HeroText_list'>
                     <li>Specializing in Outdoor, Indoor, and Office chairs</li>
                     <li>20 plants in 12 countries form the backbone of our manufacturing infrastructure.</li>
                   </ul>
