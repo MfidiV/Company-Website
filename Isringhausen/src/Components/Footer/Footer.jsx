@@ -10,8 +10,7 @@ function Footer() {
             BUNO <span>SEAT</span>
           </h2>
           <p>
-            A global market leader in the development and manufacture of
-            innovative seating systems for commercial vehicles as well as technical springs.
+          A global market leader in the development and manufacture of innovative seating systems.
           </p>
           <div className="newsletter">
             <p className="pt-2">
@@ -26,40 +25,40 @@ function Footer() {
           <h6 className="text-uppercase fw-bold mb-4">Products</h6>
           <p>
             <a href="#!" className="text-reset">
-              Truck Seats
+              Outdoor 
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Bus Seats
+              Indoors
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Commercial
+              Garden
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Heavy Construction
+              Dinning Area
             </a>
           </p>
         </div>
         <div className="Links-container">
           <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
           <p>
-            <a href="#!" className="text-reset">
+            <a href="" className="text-reset">
               Home
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              About Company
+              About
             </a>
           </p>
           <p>
             <a href="#!" className="text-reset">
-              Orders
+              Services
             </a>
           </p>
           <p>
