@@ -131,12 +131,23 @@
     font-size: 16px;
     color: #6c757d;
 }
-
+@media (max-width: 990px) {
+  .H_line {
+      width: 100%;
+    }
+    ol, ul {
+      padding-left: 2rem;
+      text-align: left;
+  }
+  }
 @media (max-width: 780px) {
 .H_line {
     width: 100%;
-
   }
+  ol, ul {
+    padding-left: 2rem;
+    text-align: left;
+}
 }
 @media (max-width: 320px) {
     .HeroText {
