@@ -40,6 +40,7 @@ const HomePage = () => {
       <Profile />
       <Products />
       <Contact />
+      <Footer/>
     </div>
   );
 };
