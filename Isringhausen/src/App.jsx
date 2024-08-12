@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
     
       <div>
-      <TopBar/>
+      
         <Routes>
           <Route exact path="" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
@@ -25,7 +25,6 @@ function App() {
           <Route path="/SelectedImage" element={<SelectedImage />} />
           <Route path="*" element={<NotFound />} /> {/* Optional: handle 404 errors */}
         </Routes>
-        <Footer /> {/* Moved Footer outside of Routes so it appears on all pages */}
       </div>
     </BrowserRouter>
   );
@@ -35,7 +34,7 @@ function App() {
 const HomePage = () => {
   return (
     <div>
-      {/* <TopBar /> */}
+     <TopBar />
       <Header/>
       <Home />
       <Profile />
