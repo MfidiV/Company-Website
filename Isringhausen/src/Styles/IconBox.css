@@ -8,7 +8,9 @@
     margin-left: calc(-.5* var(--bs-gutter-x));
 }
 
-@media (min-width: 430px) {
+
+
+@media (max-width: 766px) {
     .row2 {
         --bs-gutter-x: 1.5rem;
         --bs-gutter-y: 0;
@@ -19,6 +21,16 @@
         margin-right: 20px;
         margin-left: 20px;
     }
-    
+    .icon-box {
+        background: #fff;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 30px rgba(214, 215, 216, 0.5);
+        transition: all 0.3s ease-in-out;
+        border-radius: 8px;
+        text-align: center;
+        margin: 15px; /* Add margin to create space between icon boxes */
+      }
 
 }

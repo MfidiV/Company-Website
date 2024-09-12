@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "The Evolution of Office Seating: From Basic to Ergonomic",
+    "title": "The Evolution of Office Seating",
     "date": "2024-09-01",
     "image": "../src/assets/BlogImages/react.jpg",
-    "content": "The office chair has come a long way from its humble beginnings. Early office chairs were basic and lacked ergonomic features, but today's models are designed to promote comfort and productivity. Modern office chairs feature adjustable armrests, lumbar support, and high-quality materials. In this blog, we explore how office chairs have evolved and the importance of ergonomic design in enhancing workplace well-being."
+    "content": "The office chair has come a long way from its humble beginnings.: From Basic to Ergonomic Early office chairs were basic and lacked ergonomic features, but today's models are designed to promote comfort and productivity. Modern office chairs feature adjustable armrests, lumbar support, and high-quality materials. In this blog, we explore how office chairs have evolved and the importance of ergonomic design in enhancing workplace well-being."
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
   },
   {
     "id": 3,
-    "title": "The Impact of Seating Design on Productivity in Workspaces",
+    "title": "The Impact of Seating Design on Productivity",
     "date": "2024-09-10",
     "image": "../src/assets/BlogImages/react.jpg",
     "content": "Seating design plays a crucial role in workplace productivity. Comfortable and supportive seating can reduce fatigue and improve focus. In this post, we examine various seating designs and their impact on employee performance, including the benefits of adjustable chairs and ergonomic workstations. Discover how investing in quality seating can lead to a more productive and happier workforce."

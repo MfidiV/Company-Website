@@ -2,6 +2,7 @@ import React from 'react';
 import aunde from '../assets/Logo/aunde.jpg';
 import fehrer from '../assets/Logo/fehrer.jpg';
 import isrilogo from '../assets/Logo/isri.gif';
+import '../Styles/IconBox.css' 
 
 function IconBox() {
   return (

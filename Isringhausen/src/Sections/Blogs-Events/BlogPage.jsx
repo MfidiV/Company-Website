@@ -36,12 +36,16 @@ const BlogPage = () => {
                 <p>
                   {expandedBlogId === blog.id ? blog.content : `${blog.content.substring(0, 100)}...`}
                 </p>
-                <button 
-                  className="see-more" 
-                  onClick={() => handleToggle(blog.id)}
+                <a 
+                  href="#"
+                  className="see-more"
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent default link behavior
+                    handleToggle(blog.id);
+                  }}
                 >
                   {expandedBlogId === blog.id ? 'See Less' : 'See More'}
-                </button>
+                </a>
               </div>
             </li>
           ))}
