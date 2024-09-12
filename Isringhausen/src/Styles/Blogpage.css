@@ -7,9 +7,14 @@
 
 .blog-page h1 {
   font-size: 2.5em; /* Larger heading */
-  margin-bottom: 30px; /* Increased margin for spacing */
-  text-align: center;
-  color: #333;
+  margin: 0; /* Remove default margin */
+  padding: 80px; /* Add padding for spacing inside the section */
+  background-color: #007bff; /* Background color for the section */
+  color: #fff; /* White text color */
+  text-align: center; /* Center align text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin-bottom: 30px; /* Space below the header */
 }
 
 .blog-list {

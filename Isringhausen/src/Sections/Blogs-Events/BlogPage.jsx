@@ -18,7 +18,7 @@ const BlogPage = () => {
 
   return (
     <div className="blog-page">
-      <h1>Blog Posts</h1>
+      <h1>Blog</h1>
       {blogs.length === 0 ? (
         <p>No blog posts available.</p>
       ) : (
@@ -35,8 +35,7 @@ const BlogPage = () => {
               <div className="blog-content">
                 <p>
                   {expandedBlogId === blog.id ? blog.content : `${blog.content.substring(0, 100)}...`}
-                </p>
-                <a 
+                  <a 
                   href="#"
                   className="see-more"
                   onClick={(e) => {
@@ -46,6 +45,7 @@ const BlogPage = () => {
                 >
                   {expandedBlogId === blog.id ? 'See Less' : 'See More'}
                 </a>
+                </p>               
               </div>
             </li>
           ))}
