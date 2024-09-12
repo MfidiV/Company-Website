@@ -9,7 +9,7 @@ import Footer from './Components/Footer/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import Products from './Components/Products.jsx';
 import Services from './Sections/Services/Services.jsx'; // Make sure to create this component
-import Content from './Sections/Blogs-Events/Content.jsx'; // Make sure to create this component
+import Content from './Sections/Blogs-Events/BlogPage.jsx'; // Make sure to create this component
 import SelectedImage from './Sections/SelectedImage.jsx';
 
 function App() {
