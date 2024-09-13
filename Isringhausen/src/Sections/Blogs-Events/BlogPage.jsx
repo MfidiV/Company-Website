@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'; // assuming you're using React Router for navigation
 import '../../Styles/Blogpage.css';
 
 const BlogPage = () => {
@@ -18,7 +19,14 @@ const BlogPage = () => {
 
   return (
     <div className="blog-page">
-      <h1>Blog</h1>
+
+      <h1>Blogs</h1>
+
+      {/* Breadcrumb navigation */}
+      <nav className="breadcrumb">
+        <Link to="/" className="breadcrumb-link">Home</Link> &gt; <span>Blog</span>
+      </nav>
+
       {blogs.length === 0 ? (
         <p>No blog posts available.</p>
       ) : (
@@ -27,7 +35,7 @@ const BlogPage = () => {
             <li key={blog.id} className="blog-post">
               <div className="blog-image-container">
                 <img src={blog.image} alt={blog.title} className="blog-image" />
-                <div className="blog-content">
+                <div className="blog-content-title">
                   <h2>{blog.title}</h2>
                   <p className="blog-date"><strong>Date:</strong> {blog.date}</p>
                 </div>
@@ -36,16 +44,16 @@ const BlogPage = () => {
                 <p>
                   {expandedBlogId === blog.id ? blog.content : `${blog.content.substring(0, 100)}...`}
                   <a 
-                  href="#"
-                  className="see-more"
-                  onClick={(e) => {
-                    e.preventDefault(); // Prevent default link behavior
-                    handleToggle(blog.id);
-                  }}
-                >
-                  {expandedBlogId === blog.id ? 'See Less' : 'See More'}
-                </a>
-                </p>               
+                    href="#" 
+                    className="see-more" 
+                    onClick={(e) => {
+                      e.preventDefault(); // Prevent default link behavior
+                      handleToggle(blog.id);
+                    }}
+                  >
+                    {expandedBlogId === blog.id ? 'See Less' : 'See More'}
+                  </a>
+                </p>
               </div>
             </li>
           ))}
