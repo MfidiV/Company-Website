@@ -9,7 +9,7 @@ import Footer from './Components/Footer/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import Products from './Components/Products.jsx';
 import Services from './Sections/Services/Services.jsx'; // Make sure to create this component
-import Content from './Sections/Blogs-Events/BlogPage.jsx'; // Make sure to create this component
+import Blogs from './Sections/Blogs-Events/BlogPage.jsx'; // Make sure to create this component
 import SelectedImage from './Sections/SelectedImage.jsx';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route exact path="" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/content" element={<Content />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/SelectedImage" element={<SelectedImage />} />
           <Route path="*" element={<NotFound />} /> {/* Optional: handle 404 errors */}
         </Routes>

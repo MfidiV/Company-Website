@@ -24,7 +24,7 @@ const BlogPage = () => {
 
       {/* Breadcrumb navigation */}
       <nav className="breadcrumb">
-        <Link to="/" className="breadcrumb-link">Home</Link> &gt; <span>Blog</span>
+        <Link to="/" className="breadcrumb-link">Home </Link> &gt; <span> Blogs</span>
       </nav>
 
       {blogs.length === 0 ? (

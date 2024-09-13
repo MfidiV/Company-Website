@@ -61,7 +61,7 @@ function Header() {
             </li>
             <li className="nav-item">
               <a
-                href="/content" // Change this to the actual URL of the content page
+                href="/blogs" // Change this to the actual URL of the content page
                 onClick={handleNavLinkClick}
                 // className="nav-link"
               >
